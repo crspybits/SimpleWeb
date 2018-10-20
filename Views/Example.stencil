@@ -1,0 +1,7 @@
+<html>
+    There are {{ articles.count }} articles. <br />
+
+    {% for article in articles %}
+        - {{ article.title }} written by {{ article.author }}. <br />
+    {% endfor %}
+</html>
